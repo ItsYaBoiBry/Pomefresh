@@ -1,0 +1,106 @@
+            body {
+                font-family: "Quicksand", sans-serif;
+
+            }
+            .sidenav {
+                border-right: 10px solid #E53F1B;
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #FF6E4F;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+                color: white;
+            }
+            .sidenav:hover{
+                width:250px;
+            }
+            #page{
+                transition:0.5s;
+            }
+            .sidenav:hover + #page{
+                margin-left: 250px;
+            }
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .navlinks{
+                width: 100%;
+                max-width: 100%;
+                font-size: 30px;
+                transition: 0.5s;
+                display: block;
+                transition: 0.3s;
+                padding: 20px;
+            }
+            .navlinks:hover{
+                background:#E53F1B;
+            }
+            .material-icons{
+                font-size: 40px;
+            }
+            #login{
+                width: 100%;
+                max-width: 100%;
+                font-size: 30px;
+                transition: 0.5s;
+                display: block;
+                transition: 0.3s;
+                background: white;
+                color: #FF6E4F;
+                padding: 20px;
+            }
+            #login:hover{
+                background: rgba(0,0,0,0.1);
+                color: white;
+            }
+            #header{
+                background: #E53F1B;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 0;
+            }
+            #products{
+                padding: 20px;
+                height: 0%;
+                width: 0%;
+                visibility: hidden;
+            }
+            #home{
+                padding: 20px;
+                height: 0%;
+                width: 0%;
+                visibility: hidden;
+            }
+            #users{
+                padding: 20px;
+                height: 0%;
+                width: 0%;
+                visibility: hidden;
+            }
+            #orders{
+                padding: 20px;
+                height: 0%;
+                width: 0%;
+                visibility: hidden;
+            }
+            
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Apr, 2018, 5:28:12 PM
+    Author     : user
+*/
+
