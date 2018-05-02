@@ -1,0 +1,31 @@
+
+table{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: "Quicksand", sans-serif;
+    border-collapse: collapse;
+    width: 97%;
+    height: 100%;
+    max-height: 100%;
+}
+
+tr,th {
+    text-align: left;
+    padding: 10px;
+}
+th{
+    background: coral;
+    color: white;
+}
+td{
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+.id{
+    width: 30px;
+}
+.qty{
+    width: 100px;
+}

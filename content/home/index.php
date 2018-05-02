@@ -1,12 +1,12 @@
-<?php ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+?>
 <html>
-   <head>
+    <head>
        <link rel="icon" href="../../img/pomefresh_logo.jpg" sizes="16x16" type="image/jpg">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/sidebar_style.css" rel="stylesheet" type="text/css"/>
@@ -14,19 +14,19 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Pomefresh</title>
-         <style>
-            #navLinkUsers{
+        <style>
+            #navLinkHome{
                 background-color: #E53F1B;
             }
         </style>
-     
+        
 
     </head>
     <body>
         <?php include '../widget/sidebar.php' ?>
         <div id="page">
             <div class="w3-card" id="header">
-                <h1 style="font-size: 25px;">Users</h1>
+                <h1 style="font-size: 25px;">Pomefresh</h1>
             </div>
 
         </div>
