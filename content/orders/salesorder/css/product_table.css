@@ -20,7 +20,6 @@ th{
     color: white;
 }
 td{
-
     border: 1px solid #dddddd;
 }
 .id{
@@ -29,9 +28,9 @@ td{
 .qty{
     width: 150px;
 }
-#product{
+/*#product{
     visibility:hidden;
-}
+}*/
 #message_no_products{
     position: absolute;
     height: 50px;

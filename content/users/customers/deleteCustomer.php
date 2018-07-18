@@ -1,11 +1,22 @@
-<?php ?>
+<?php
+include "dbFunctions.php";
+$id = $_POST['id'];
 
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+$message = "";
+
+$query = "DELETE FROM customers WHERE id='$id' ";
+
+$status = mysqli_query($link, $query) or die(mysqli_error($link));
+
+if ($status) {
+    $message = "Customer deleted successfully.<br />";
+} else {
+    $message = "Failed deleting customer.<br />";
+    $message .= "<a href='customerList'>Try Again.</a>";
+}
+
+
+?>
 <html>
     <head>
         <link rel="icon" href="../../img/pomefresh_logo.jpg" sizes="16x16" type="image/jpg">
@@ -16,7 +27,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Pomefresh</title>
         <style>
-            #navLinkOrders{
+            #navLinkUsers{
                 background-color: #E53F1B;
             }
         </style>
@@ -25,14 +36,13 @@ and open the template in the editor.
         <?php include '../widget/sidebar.php' ?>
         <div id="page">
             <div class="w3-card" id="header">
-                <h1 style="font-size: 25px;">Orders</h1>
+                <h1 style="font-size: 25px;">Customers</h1>
             </div>
-            <a href="salesorder/index.php">Sales Orders</a><br>
-            <a href="productorder/index.php">Purchase Orders</a>
+            <div id="body">
+                <h3>Delete Customer</h3>
+                <?php echo $message; ?>
+                <a href="customerList.php">Go back to Customer List</a>
+            </div>
         </div>
-        <script>
-
-        </script>
-
     </body>
 </html>

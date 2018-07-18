@@ -13,7 +13,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <meta charset="UTF-8">
-        <title>Pomefresh</title>
+        <title>Settings</title>
          <style>
             #navLinkSettings{
                 background-color: #E53F1B;
@@ -26,11 +26,11 @@ and open the template in the editor.
             <div class="w3-card" id="header">
                 <h1 style="font-size: 25px;">Settings</h1>
             </div>
+            <hr>
+            <a href="categories/">Categories</a>
+            <hr>
 
         </div>
-        <script>
-
-        </script>
 
     </body>
 </html>

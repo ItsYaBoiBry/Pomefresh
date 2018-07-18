@@ -23,16 +23,21 @@ and open the template in the editor.
 
     </head>
     <body>
+<!--        <a href="../widget/sidebar.php"></a>-->
         <?php include '../widget/sidebar.php' ?>
         <div id="page">
             <div class="w3-card" id="header">
                 <h1 style="font-size: 25px;">Users</h1>
             </div>
-
+            <hr>
+            <a href="vendors/vendorList.php">Vendors</a><br>
+            <a href="customers/customerList.php">Customers</a>
+            <hr>
         </div>
         <script>
 
         </script>
+        
 
     </body>
 </html>

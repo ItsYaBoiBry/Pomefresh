@@ -1,3 +1,3 @@
-<?php 
-header('Location: /Pomefresh/content/home');
+<?php
+    header('Location: /Pomefresh/content/home');
 ?>
