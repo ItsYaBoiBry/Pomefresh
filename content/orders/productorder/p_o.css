@@ -1,0 +1,126 @@
+table{
+    padding: 10px;
+    border-collapse: collapse;
+    
+                margin:10px;
+                width: 80%;
+}
+th{
+    background-color: #FB5F4A;
+    color: #FFFFFF;
+    border-style: none;
+
+}
+td{
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+}
+button,.subm,.del{
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.add{
+    background-color: #2DB73B;
+    
+}
+.filter{
+    padding: 5px;
+    background-color: #FB5F4A;
+    color: white;
+}
+.ee{
+    margin: auto;
+    width: 50%;
+}
+.idFor{
+    visibility: hidden;
+}
+.poid{
+    visibility: hidden;
+}
+.po_id{
+    visibility: hidden;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+    background-color: DodgerBlue;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+select{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid grey;
+}
+
+label{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+    
+}
+input{
+    width: 30%;
+                max-width: 30%;
+                padding:10px;
+                margin:10px;
+                border-radius:5px;
+                border:1px solid grey;
+}
+span{
+        width: 30%;
+                max-width: 30%;
+                padding:10px;
+                margin:10px;
+
+}

@@ -45,14 +45,14 @@ $desc = $row['description'];
                 
                 
                 ?>
-            <input type="submit" name="Update" value="Update" class="subm"/>
+            <input type="submit" name="Update" value="Update" class="subm" style="padding:15px;background-color:#2DB73B;color:#FFFFFF;border-radius:10px;text-decoration: none;"/>
             <input type="hidden" name="id" id="id" value="<?php echo $row['category_id']; ?>"/>
             
         </form>
             <form action="deleteCategory.php" method='post' onSubmit="return confirm('Are you sure you want to delete this category?')">
              <input type="hidden" name="id" id="id" value="<?php echo $row['category_id']; ?>"/>
            
-            <input type="submit" name="delete" value="Delete" class="del"  padding="5px;" color="#FFFFFF;" background-color="#2DB73B;">
+            <input type="submit" name="delete" value="Delete" class="del"  style="padding:15px;background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none;">
             </form>
         </div>
     </body>

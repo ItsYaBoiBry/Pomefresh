@@ -20,7 +20,7 @@ $output = fopen('php://output', 'w');
 fputcsv($output, array());
 
 // fetch the data
-$query = "SELECT * FROM products";
+$query = "SELECT * FROM products WHERE product_status_id = 2";
 $rows = mysqli_query($conn, $query) or die(json_encode($response["error"] = mysqli_error($conn)));
 
 // loop over the rows, outputting them

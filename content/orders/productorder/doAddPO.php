@@ -8,7 +8,7 @@ $status = "no";
 
 
 $updateQuery = "INSERT INTO purchase_order(order_no,vendor_vendor_id,po_status)"
-        . " VALUES ($onum,$vname,'$status')";
+        . " VALUES ($onum,'$vname','$status')";
 $status = mysqli_query($link, $updateQuery) or die(mysqli_error($link));
 
 if ($status) {

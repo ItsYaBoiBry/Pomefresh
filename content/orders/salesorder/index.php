@@ -16,6 +16,7 @@
     <link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link href="css/product_table.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../css/sidebar_style.css" rel="stylesheet" type="text/css"/>
 
     <script src="js/loadInitialTable.js" type="text/javascript"></script>
     <meta charset="UTF-8">
@@ -47,18 +48,32 @@
     </style>
 </head>
 <body onload="loadTable()">
+<?php include '../../widget/sidebar.php'; ?>
 <div id="page">
     <div class="w3-card" id="header">
-        <a id="back" href="../index.php"><i class="material-icons">arrow_back</i></a>
         <label style="font-size:30px;margin-left:30px;">Sales orders</label>
     </div>
+    <form style="margin-top: 30px;margin-left: 20px;s" class="form-horizontal" action="API/addsalesorder.php" method="post"
+          name="uploadCSV"
+          enctype="multipart/form-data">
+        <div class="input-row">
+            <input type="file" name="file" id="file" accept=".csv"
+                   style="padding:15px;background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none">
+            <button type="submit" id="submit" name="import"
+                    style="padding:15px;background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none;"
+                    class="btn-submit">Import
+            </button>
+            <br/>
+
+        </div>
+        <label id="response"></label>
+        <div id="labelError"></div>
+    </form>
     <div id="table">
         <br>
         <a href="../../orders/salesorder/csv/exportsalesorder.php"
-           style="padding:15px;margin: 20px; background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none">Export</a>
-        <a href="../../orders/salesorder/addsalesorder.php"
-           style="padding:15px;margin: 20px; background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none">New Order</a>
-        <br>
+           style="padding:15px;margin: 20px; background-color:#E53F1B;color:#FFFFFF;border-radius:10px;text-decoration: none">Export Sales Orders</a>
+        <br><br>
         <table id="product">
             <tr>
                 <th class="id">
@@ -77,5 +92,30 @@
         </table>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(
+        function() {
+            $("#frmCSVImport").on(
+                "submit",
+                function() {
+                    $item = $["#response"];
+
+                    $item.attr("class", "");
+                    $item.html("");
+                    let fileType = ".csv";
+                    let regex = new RegExp("([a-zA-Z0-9\s_\\.\-:])+("
+                        + fileType + ")$");
+                    if (!regex.test($("#file").val().toLowerCase())) {
+                        $item.addClass("error");
+                        $item.addClass("display-block");
+                        $item.html(
+                            "Invalid File. Upload : <b>" + fileType
+                            + "</b> Files.");
+                        return false;
+                    }
+                    return true;
+                });
+        });
+</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 include ("dbFunctions.php");
 $arrResult = array();
-$queryName = "SELECT * FROM purchase_order po, vendor v WHERE po.vendor_vendor_id = v.vendor_id";
+$queryName = "SELECT * FROM purchase_order po, vendor v WHERE po.vendor_vendor_id = v.vendor_id ORDER BY order_no";
 $resultsSelect = mysqli_query($link, $queryName) or die("Error in query" . mysqli_error($link));
                         
                         while ($row = mysqli_fetch_assoc($resultsSelect)) {
@@ -17,6 +17,7 @@ $resultsSelect = mysqli_query($link, $queryName) or die("Error in query" . mysql
         <link href="../../../css/sidebar_style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="p_o.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <title>Purchase Order</title>
         <style>
@@ -77,7 +78,7 @@ $resultsSelect = mysqli_query($link, $queryName) or die("Error in query" . mysql
                      <?php } ?>
                 </table>
                 <form action="add_PO.php">
-                    <input type="submit" value="Add">
+                    <input type="submit" value="Add" style="    background-color: #2DB73B; color:white;">
                 </form>
                 
             </div>

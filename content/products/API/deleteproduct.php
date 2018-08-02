@@ -3,7 +3,7 @@
 include "../../dbconfig.php";
 $id= $_GET['id'];
 //type=all  is to get all users (select * from users;)
-$query_status_all = "DELETE FROM products WHERE product_id = $id;";
+$query_status_all = "UPDATE products SET product_status_id = 1 WHERE product_id = $id;";
 $message_success = "success";
 $message_no_products = "Failed to delete product";
 $message_no_type = "No Type";
@@ -18,7 +18,7 @@ if ($conn) {
         jsonResponse(404, $message_no_products, null);
     }
 } else {
-    jsonResponse(401, $message_user_401, null);
+    jsonResponse(401, "Unable to connect to database", null);
 }
 
 function jsonResponse($status, $status_message, $data) {
@@ -41,4 +41,3 @@ function getUser($conn, $query) {
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-?>

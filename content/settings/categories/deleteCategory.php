@@ -9,9 +9,9 @@ $deleteQuery = "DELETE FROM category WHERE category_id='$id'";
 $status = mysqli_query($link, $deleteQuery) or die(mysqli_error($link));
 
 if ($status) {
-    $message = "Story Deleted successfully.<br />";
+    $message = "Category Deleted successfully.<br />";
 } else {
-    $message = "Story post failed.<br />";
+    $message = "Category post failed.<br />";
     $message .= "<a href='editCat.php'>Try Again.</a>";
 }
 

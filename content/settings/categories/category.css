@@ -1,12 +1,14 @@
 table{
     padding: 10px;
-    border-collapse: collapse
+    border-collapse: collapse;
+    margin:10px;
+    width: 80%;
 }
 th{
     background-color: #FB5F4A;
     color: #FFFFFF;
     border-style: none;
-    
+
 }
 td{
     background-color: #FFFFFF;
@@ -26,6 +28,30 @@ button,.subm,.del{
     color: white;
 }
 .ee{
-        margin: auto;
+    margin: auto;
     width: 50%;
+}
+
+label{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+
+}
+input{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid grey;
+    
+}
+span{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+
 }

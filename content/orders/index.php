@@ -19,6 +19,9 @@ and open the template in the editor.
             #navLinkOrders{
                 background-color: #E53F1B;
             }
+            body{
+                font-family:"Quicksand", sans-serif;
+            }
         </style>
     </head>
     <body>

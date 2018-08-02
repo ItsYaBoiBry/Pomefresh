@@ -15,20 +15,20 @@ function loadTable() {
                 console.log(data.status);
 
                 if (data.status === 200) {
-                    console.log("Success");
-                    for (var i = 0; i < data.result.length; i++) {
-                        var getitem = data.result[i];
-                        console.log(getitem.so_transaction_id);
-                        console.log(getitem.so_sendto);
-                        console.log(getitem.so_date);
-                    $('#product').append("<tr>"
-                        + "<td class='id'>"
-                        + (i + 1)
-                        + "</td>"
-                        + "<td class='name'>"
+                        console.log("Success");
+                        for (var i = 0; i < data.result.length; i++) {
+                            var getitem = data.result[i];
+                            console.log(getitem.so_transaction_id);
+                            console.log(getitem.so_sendto);
+                            console.log(getitem.so_date);
+                            $('#product').append("<tr>"
+                                + "<td class='id'>"
+                                + (i + 1)
+                                + "</td>"
+                                + "<td class='name'>"
                         + getitem.so_transaction_id + "</td>"
                         + "<td>"
-                        + getitem.so_sendto
+                        + getitem.so_shipping_address
                         + "</td>"
                         + "<td class='price'>"
                         + getitem.so_date
@@ -41,7 +41,7 @@ function loadTable() {
             } else {
                     console.log("Error");
                     $('#product').css("visibility", "hidden");
-                    $('#table').html("<div id='message_no_products'><h1>NO PRODUCTS</h1></div>")
+                    $('#table').html("<div id='message_no_products'><h1>NO ORDERS</h1></div>")
                 }
 //                        $(".panel-footer").html("Results: " + data.result);
             }

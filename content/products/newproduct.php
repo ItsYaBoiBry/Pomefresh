@@ -33,7 +33,7 @@
                 padding:10px;
                 margin:10px;
                 border-radius:5px;
-                border:1px solid grey
+                border:1px solid grey;
             }
             #description{
                 width:60%;

@@ -10,9 +10,9 @@ $updateQuery = "INSERT INTO category (name,description) VALUES ('$name','$desc')
 $status = mysqli_query($link, $updateQuery) or die(mysqli_error($link));
 
 if ($status) {
-    $message = "Story posted successfully.<br />";
+    $message = "Category posted successfully.<br />";
 } else {
-    $message = "Story post failed.<br />";
+    $message = "Caegory post failed.<br />";
     $message .= "<a href='editCat.php'>Try Again.</a>";
 }
 

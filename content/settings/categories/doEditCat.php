@@ -10,9 +10,9 @@ $updateQuery = "UPDATE category SET name ='$name', description = '$desc' WHERE c
 $status = mysqli_query($link, $updateQuery) or die(mysqli_error($link));
 
 if ($status) {
-    $message = "Story posted successfully.<br />";
+    $message = "Category Edited successfully.<br />";
 } else {
-    $message = "Story post failed.<br />";
+    $message = "Category Edit failed.<br />";
     $message .= "<a href='editCat.php'>Try Again.</a>";
 }
 

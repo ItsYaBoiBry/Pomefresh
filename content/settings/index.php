@@ -7,16 +7,19 @@ and open the template in the editor.
 -->
 <html>
     <head>
-       <link rel="icon" href="../../img/pomefresh_logo.jpg" sizes="16x16" type="image/jpg">
+        <link rel="icon" href="../../img/pomefresh_logo.jpg" sizes="16x16" type="image/jpg">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/sidebar_style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Settings</title>
-         <style>
+        <style>
             #navLinkSettings{
                 background-color: #E53F1B;
+            }
+            body{
+                font-family:"Quicksand", sans-serif;
             }
         </style>
     </head>

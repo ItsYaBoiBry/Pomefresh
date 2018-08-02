@@ -38,7 +38,7 @@ function loadTable() {
                                 + "</td>"
                                 + " <td style='border:none;'>"
                                 + "<a href='viewproduct.php?id=" + getProduct.product_id + "' style='margin-left:50px;background-color:#00BF32;color:#FFFFFF;padding:13px;'><button style='background-color:#00BF32;border:none;color:#FFFFFF;'>View More</button></a>"
-                                + "<a href='#' style='margin-left:20px;background-color:red;padding:13px;color:#FFFFFF;'><button style='background-color:red;border:none;color:#FFFFFF;'>Re-Order</button></a>"
+                                + "<a href='../../content/orders/productorder/add_PO.php' style='margin-left:20px;background-color:red;padding:13px;color:#FFFFFF;'><button style='background-color:red;border:none;color:#FFFFFF;'>Re-Order</button></a>"
                                 + "</td>"
                                 + "</tr>");
 

@@ -18,8 +18,7 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="category.css" rel="stylesheet" type="text/css"/>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
         <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
         <meta charset="UTF-8">
         <title>Categories</title>
@@ -36,6 +35,9 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
             #btnSearch{
                 background-color: #2DB73B;
             }
+            body{
+                font-family:"Quicksand", sans-serif;
+            }
         </style>
 
     </head>
@@ -50,7 +52,7 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
                 <div class="topnav" align="center">
 
                     <input type="text" id="filter" placeholder="Search.." class="filter" >
-                    <input type="button" class="btnSearch" id="btnSearch" value="Filter..." >
+                    <input type="button" class="btnSearch" id="btnSearch" value="Filter..." style="padding:15px;background-color:#2DB73B;color:#FFFFFF;border-radius:10px;text-decoration: none;" >
                     <br/>
                     <div id="searchResult"></div>
 
@@ -90,7 +92,7 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
                     </table>
                 </div>
                 <form action="addCategory.php">
-                    <input type="submit" value="Add" class="add">
+                    <input type="submit" value="Add" class="add" style="padding:15px;background-color:#2DB73B;color:#FFFFFF;border-radius:10px;text-decoration: none;" >
                 </form>
 
             </div>
@@ -104,7 +106,7 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
                     $("#searchResult").html("Search result for " + filter);
                     $.ajax({
                         type: "GET",
-                        url: "http://localhost/Pomefresh/content/categories/getCategories.php",
+                        url: "http://localhost/Pomefresh/content/settings/categories/getCategories.php",
                         data: "name=" + filter,
                         cache: false,
                         dataType: "JSON",
@@ -118,7 +120,6 @@ while ($row = mysqli_fetch_assoc($resultsSelect)) {
                                         + "<td class='result'>" + response[i].name + "</td>"
                                         + "<td class='result'>" + response[i].description + "</td></tr>"
                                         + "</table>";
-//
                             }
                             console.log(message);
                             $("#table").html(message);

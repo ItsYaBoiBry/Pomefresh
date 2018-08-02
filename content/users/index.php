@@ -14,12 +14,11 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Pomefresh</title>
-         <style>
-            #navLinkUsers{
-                background-color: #E53F1B;
-            }
+        <style>
+            body{
+            font-family:"Quicksand", sans-serif;
+        }
         </style>
-     
 
     </head>
     <body>

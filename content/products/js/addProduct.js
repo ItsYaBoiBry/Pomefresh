@@ -9,18 +9,12 @@ function addproduct() {
 
     $("#addproduct").submit(function (event) {
         var ajaxRequest;
-        /* Stop form from submitting normally */
         event.preventDefault();
-        /* Clear result div*/
-        /* Get from elements values */
         var values = $(this).serialize();
         console.log(values);
-        /* Send the data using post and put the results in a div */
-        /* I am not aborting previous request because It's an asynchronous request, meaning 
-         Once it's sent it's out there. but in case you want to abort it  you can do it by  
-         abort(). jQuery Ajax methods return an XMLHttpRequest object, so you can just use abort(). */
+
         ajaxRequest = $.ajax({
-            url: "http://localhost/Pomefresh/content/products/API/addproduct.php",
+            url: "http://localhost/Pomefresh/content/products/API/addproducts.php",
             type: "post",
             data: values
         });

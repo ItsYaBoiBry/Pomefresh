@@ -9,9 +9,9 @@ $deleteQuery = "DELETE FROM purchase_details WHERE id='$id'";
 $status = mysqli_query($link, $deleteQuery) or die(mysqli_error($link));
 
 if ($status) {
-    $message = "Story Deleted successfully.<br />";
+    $message = "Detail Deleted successfully.<br />";
 } else {
-    $message = "Story post failed.<br />";
+    $message = "Detail post failed.<br />";
     $message .= "<a href='editCat.php'>Try Again.</a>";
 }
 

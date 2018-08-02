@@ -15,6 +15,7 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
         <link href="../../../css/sidebar_style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="p_o.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
 <?php include '../../widget/sidebar.php' ?>
@@ -38,7 +39,7 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
                 
                 
                
-                <input type="submit" name="add" value="Add Item"/>
+                <input type="submit" name="add" value="Add Item" style="    background-color: #2DB73B; color:white;"/>
             </form>
         </div>
     </body>
