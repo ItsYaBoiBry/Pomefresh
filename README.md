@@ -1,2 +1,0 @@
-# Pomefresh
-FYP Project
