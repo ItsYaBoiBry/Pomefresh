@@ -1,0 +1,14 @@
+[08-Aug-2018 05:31:14 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 11
+[08-Aug-2018 05:31:14 UTC] PHP Notice:  Undefined index: address in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 12
+[08-Aug-2018 05:31:14 UTC] PHP Notice:  Undefined index: phone in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 13
+[08-Aug-2018 05:31:14 UTC] PHP Notice:  Undefined index: email in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 14
+[08-Aug-2018 05:32:47 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/editCustomer.php on line 4
+[08-Aug-2018 05:32:53 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doEditCustomer.php on line 12
+[08-Aug-2018 05:32:53 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doEditCustomer.php on line 13
+[08-Aug-2018 05:32:53 UTC] PHP Notice:  Undefined index: address in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doEditCustomer.php on line 14
+[08-Aug-2018 05:32:53 UTC] PHP Notice:  Undefined index: phone in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doEditCustomer.php on line 15
+[08-Aug-2018 05:32:53 UTC] PHP Notice:  Undefined index: email in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doEditCustomer.php on line 16
+[10-Aug-2018 02:52:18 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 11
+[10-Aug-2018 02:52:18 UTC] PHP Notice:  Undefined index: address in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 12
+[10-Aug-2018 02:52:18 UTC] PHP Notice:  Undefined index: phone in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 13
+[10-Aug-2018 02:52:18 UTC] PHP Notice:  Undefined index: email in /home/b0a896910ll8/public_html/Pomefresh/content/users/customers/doAddCustomer.php on line 14

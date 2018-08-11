@@ -1,0 +1,30 @@
+[03-Aug-2018 04:54:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'pomefresh-admin'@'localhost' (using password: YES) in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/dbFunctions.php on line 10
+[03-Aug-2018 04:54:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 04:54:02 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 04:59:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'pomefresh-admin'@'localhost' (using password: YES) in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/dbFunctions.php on line 10
+[03-Aug-2018 04:59:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 04:59:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 05:04:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'pomefresh-admin'@'localhost' (using password: YES) in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/dbFunctions.php on line 10
+[03-Aug-2018 05:04:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 05:04:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 05:04:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'pomefresh-admin'@'localhost' (using password: YES) in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/dbFunctions.php on line 10
+[03-Aug-2018 05:04:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 05:04:25 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/index.php on line 6
+[03-Aug-2018 06:09:47 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 6
+[03-Aug-2018 06:09:47 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 7
+[03-Aug-2018 06:10:05 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 6
+[03-Aug-2018 06:10:05 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 7
+[03-Aug-2018 06:10:05 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 8
+[03-Aug-2018 06:10:15 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/deleteCategory.php on line 6
+[08-Aug-2018 04:06:43 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 6
+[08-Aug-2018 04:06:43 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 7
+[08-Aug-2018 04:07:19 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/deleteCategory.php on line 6
+[08-Aug-2018 05:05:15 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 6
+[08-Aug-2018 05:05:15 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 7
+[08-Aug-2018 05:05:15 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 8
+[10-Aug-2018 02:52:34 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 6
+[10-Aug-2018 02:52:34 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 7
+[10-Aug-2018 02:52:34 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doEditCat.php on line 8
+[10-Aug-2018 02:53:44 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 6
+[10-Aug-2018 02:53:44 UTC] PHP Notice:  Undefined index: description in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/doAddCategory.php on line 7
+[10-Aug-2018 02:54:38 UTC] PHP Notice:  Undefined index: id in /home/b0a896910ll8/public_html/Pomefresh/content/settings/categories/deleteCategory.php on line 6

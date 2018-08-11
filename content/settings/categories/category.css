@@ -1,0 +1,57 @@
+table{
+    padding: 10px;
+    border-collapse: collapse;
+    margin:10px;
+    width: 80%;
+}
+th{
+    background-color: #FB5F4A;
+    color: #FFFFFF;
+    border-style: none;
+
+}
+td{
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+}
+button,.subm,.del{
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.add{
+    background-color: #2DB73B;
+}
+.filter{
+    padding: 5px;
+    background-color: #FB5F4A;
+    color: white;
+}
+.ee{
+    margin: auto;
+    width: 50%;
+}
+
+label{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+
+}
+input{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid grey;
+    
+}
+span{
+    width: 30%;
+    max-width: 30%;
+    padding:10px;
+    margin:10px;
+
+}

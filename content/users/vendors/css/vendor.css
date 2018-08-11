@@ -6,39 +6,30 @@ table{
     margin-right: 20px;
     font-family: "Quicksand", sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 97%;
     height: 100%;
     max-height: 100%;
 }
 
-tr,th,td {
+tr,th {
     text-align: left;
-    padding: 15px;
+    padding: 10px;
 }
 th{
     background: coral;
     color: white;
 }
 td{
-
+    padding: 10px;
     border: 1px solid #dddddd;
 }
 .id{
     width: 30px;
 }
 .qty{
-    width: 150px;
+    width: 100px;
 }
-#product{
-    visibility:hidden;
-}
-#message_no_products{
-    position: absolute;
-    height: 50px;
-    top: 50%;
-    left: 50%;
-    margin-left: -50px; /* margin is -0.5 * dimension */
-    margin-top: -25px; 
-    color:grey;
 
+form {
+    margin-left: 20px;
 }

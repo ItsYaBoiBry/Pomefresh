@@ -1,0 +1,53 @@
+[03-Aug-2018 04:32:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/dbFunctions.php on line 10
+[03-Aug-2018 04:32:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/dbFunctions.php on line 11
+[03-Aug-2018 04:32:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/index.php on line 6
+[03-Aug-2018 04:32:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/index.php on line 6
+[03-Aug-2018 04:51:20 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'pomefresh_admin'@'localhost' to database 'pomefresh_db' in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/dbFunctions.php on line 10
+[03-Aug-2018 04:51:20 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'pomefresh_admin'@'localhost' to database 'pomefresh_db' in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/dbFunctions.php on line 11
+[03-Aug-2018 04:51:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/index.php on line 6
+[03-Aug-2018 04:51:20 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/index.php on line 6
+[08-Aug-2018 04:10:38 UTC] PHP Notice:  Undefined index: po_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 6
+[08-Aug-2018 04:10:38 UTC] PHP Notice:  Undefined index: qty in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 7
+[08-Aug-2018 04:10:38 UTC] PHP Notice:  Undefined index: product_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 8
+[08-Aug-2018 04:12:03 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[08-Aug-2018 04:12:03 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[08-Aug-2018 04:12:04 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[08-Aug-2018 04:12:04 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[08-Aug-2018 04:12:21 UTC] PHP Notice:  Undefined index: idFor in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 6
+[08-Aug-2018 04:12:21 UTC] PHP Notice:  Undefined index: poid in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 7
+[08-Aug-2018 04:12:21 UTC] PHP Notice:  Undefined index: qty in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 8
+[08-Aug-2018 04:12:21 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[08-Aug-2018 04:12:22 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[08-Aug-2018 04:12:30 UTC] PHP Notice:  Undefined index: statup in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 6
+[08-Aug-2018 04:12:30 UTC] PHP Notice:  Undefined index: idFor in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 8
+[08-Aug-2018 04:13:45 UTC] PHP Notice:  Undefined index: onum in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPO.php on line 6
+[08-Aug-2018 04:13:45 UTC] PHP Notice:  Undefined index: vendor_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPO.php on line 7
+[10-Aug-2018 02:55:09 UTC] PHP Notice:  Undefined index: onum in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPO.php on line 6
+[10-Aug-2018 02:55:09 UTC] PHP Notice:  Undefined index: vendor_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPO.php on line 7
+[10-Aug-2018 02:56:52 UTC] PHP Notice:  Undefined index: po_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 6
+[10-Aug-2018 02:56:52 UTC] PHP Notice:  Undefined index: qty in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 7
+[10-Aug-2018 02:56:52 UTC] PHP Notice:  Undefined index: product_id in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doAddPOItem.php on line 8
+[10-Aug-2018 02:58:48 UTC] PHP Notice:  Undefined index: statup in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 6
+[10-Aug-2018 02:58:48 UTC] PHP Notice:  Undefined index: idFor in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 8
+[10-Aug-2018 03:01:53 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 03:01:53 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 03:01:54 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 03:01:54 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 11:55:54 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 11:55:54 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 11:56:00 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[10-Aug-2018 11:57:26 UTC] PHP Warning:  include(../widget/sidebar.php): failed to open stream: No such file or directory in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 11:57:26 UTC] PHP Warning:  include(): Failed opening '../widget/sidebar.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/editDetails.php on line 53
+[10-Aug-2018 12:00:16 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[10-Aug-2018 12:06:48 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 35
+[10-Aug-2018 12:08:01 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 36
+[10-Aug-2018 12:08:06 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 36
+[10-Aug-2018 12:09:56 UTC] PHP Notice:  Undefined index: statup in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 7
+[10-Aug-2018 12:09:56 UTC] PHP Notice:  Undefined index: idFor in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditStatus.php on line 9
+[10-Aug-2018 12:12:01 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[10-Aug-2018 12:12:25 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[11-Aug-2018 00:40:31 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[11-Aug-2018 00:41:26 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[11-Aug-2018 00:42:08 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[11-Aug-2018 00:42:29 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9
+[11-Aug-2018 01:37:40 UTC] PHP Notice:  Undefined index: sts in /home/b0a896910ll8/public_html/Pomefresh/content/orders/productorder/doEditDetails.php on line 9

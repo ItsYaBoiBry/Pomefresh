@@ -1,0 +1,67 @@
+[03-Aug-2018 04:23:17 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 04:23:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/dbconfig.php on line 8
+[03-Aug-2018 04:23:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 12
+[03-Aug-2018 04:23:22 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 12
+[03-Aug-2018 04:23:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/dbconfig.php on line 8
+[03-Aug-2018 04:23:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 12
+[03-Aug-2018 04:23:31 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 12
+[03-Aug-2018 04:27:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/dbconfig.php on line 8
+[03-Aug-2018 04:27:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 15
+[03-Aug-2018 04:27:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 24
+[03-Aug-2018 04:27:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/dbconfig.php on line 8
+[03-Aug-2018 04:27:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 15
+[03-Aug-2018 04:27:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 24
+[03-Aug-2018 04:29:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/b0a896910ll8/public_html/Pomefresh/content/dbconfig.php on line 8
+[03-Aug-2018 04:29:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 15
+[03-Aug-2018 04:29:54 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 24
+[03-Aug-2018 04:50:30 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 05:02:36 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 05:14:46 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 05:14:46 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 05:22:43 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 6
+[03-Aug-2018 05:22:43 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 7
+[03-Aug-2018 05:22:43 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 8
+[03-Aug-2018 06:00:43 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 5
+[03-Aug-2018 06:00:43 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 6
+[03-Aug-2018 06:12:58 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 06:12:59 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[03-Aug-2018 06:14:02 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 6
+[03-Aug-2018 06:14:02 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 7
+[03-Aug-2018 06:14:02 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 8
+[05-Aug-2018 11:28:40 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[06-Aug-2018 15:52:27 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[06-Aug-2018 15:53:14 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 6
+[06-Aug-2018 15:53:14 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 7
+[06-Aug-2018 15:53:14 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 8
+[08-Aug-2018 03:44:48 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 03:52:28 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 03:52:29 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 03:52:29 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 04:00:05 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 5
+[08-Aug-2018 04:00:05 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 6
+[08-Aug-2018 04:02:46 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 04:02:47 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 05:13:19 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[08-Aug-2018 05:22:08 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 5
+[08-Aug-2018 05:22:08 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 6
+[08-Aug-2018 15:40:07 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 02:46:59 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 02:46:59 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 02:46:59 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 02:47:41 UTC] PHP Notice:  Undefined index: name in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 6
+[10-Aug-2018 02:47:41 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 7
+[10-Aug-2018 02:47:41 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doRegister.php on line 8
+[10-Aug-2018 02:47:59 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 5
+[10-Aug-2018 02:47:59 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 6
+[10-Aug-2018 06:00:00 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 08:45:22 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[10-Aug-2018 12:59:51 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 00:37:02 UTC] PHP Notice:  Undefined index: username in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 5
+[11-Aug-2018 00:37:02 UTC] PHP Notice:  Undefined index: password in /home/b0a896910ll8/public_html/Pomefresh/doLogin.php on line 6
+[11-Aug-2018 00:37:29 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 00:38:00 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 00:38:00 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 00:58:49 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 01:00:02 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 01:12:31 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
+[11-Aug-2018 02:04:17 UTC] PHP Notice:  Undefined index: status in /home/b0a896910ll8/public_html/Pomefresh/index.php on line 3
